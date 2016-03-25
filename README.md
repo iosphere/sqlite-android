@@ -74,7 +74,7 @@ Afterwards [jitpack.io](jitpack.io) is used to build an Android library project 
 
 ### License
 
-- This library is licensed under the Apache License, Version 2.0.
+- Copyright (c) Jan Weitz 2016, The Apache Software License, Version 2.0 (See [LICENSE.txt](LICENSE.txt))
 - It uses the SQLite Android bindings, which are under [Public Domain](https://www.sqlite.org/copyright.html)
 - The SQlite Android bindings contain a modified copy of the Android sourcecode, which is licensed under the Apache License, Version 2.0. The license is preserved in the [source files](library/src/main/java/org/sqlite/database).
 
