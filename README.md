@@ -69,6 +69,13 @@ Afterwards [jitpack.io](jitpack.io) is used to build an Android library project 
 - `git tag 3.10.2`
 - `git push --tags`
 
+### License
+
+- This library is licensed under the Apache License, Version 2.0.
+- It uses the SQLite Android bindings, which are under [Public Domain](https://www.sqlite.org/copyright.html)
+- The SQlite Android bindings contain a modified copy of the Android Source
+  code, which is undr the Apache License, Version 2.0.
+
 ### TODO
 
 - Use a public travis CI to do the `ndk-build` step to make the build process more transparent.
