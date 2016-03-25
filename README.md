@@ -1,6 +1,6 @@
 # sqlite-android
 
-Ready-built recent SQLite bindings to be used inside Android applications and libraries for Android 4.1 (API 16) and above.
+Ready-built recent SQLite bindings to be used inside Android applications and libraries for Android 4.1 (API 16) and above. Supported architectures: [armeabi-v7a,mips,x86]
 
 If you wanted to use more recent SQLite features inside you Android application, like:
 
@@ -73,3 +73,10 @@ Afterwards [jitpack.io](jitpack.io) is used to build an Android library project 
 
 - Use a public travis CI to do the `ndk-build` step to make the build process more transparent.
 - Naming scheme for git tags for different SQlite features.
+
+
+### Inspired by
+
+- [SQLite Android bindings](https://www.sqlite.org/android/doc/trunk/www/index.wiki)
+- [SQLCipher](https://www.zetetic.net/sqlcipher/)
+- [geopaparazzu/libjsqlite-spatialite-android](https://github.com/geopaparazzi/libjsqlite-spatialite-android)
