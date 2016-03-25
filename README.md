@@ -34,8 +34,8 @@ allprojects {
 
 dependencies {
   // recent SQlite version
-  compile 'com.github.weitzj:sqlite-android:6a3995e0e'
-  
+  compile 'com.github.weitzj:sqlite-android:3.10.2'
+
   // sane shared library loading on Android (optional but recommended)
   compile 'com.github.KeepSafe:ReLinker:1.2'
 }
@@ -45,15 +45,11 @@ dependencies {
 
 - With ReLinker ([recommended](https://medium.com/keepsafe-engineering/the-perils-of-loading-native-libraries-on-android-befa49dce2db#.iboxtk215)):
 
-```
-ReLinker.loadLibrary(context, "sqliteX");
-```
+`ReLinker.loadLibrary(context, "sqliteX");`
 
 - Without ReLinker:
 
-```
-System.loadLibrary("sqliteX");
-```
+`System.loadLibrary("sqliteX");`
 
 ### Project setup
 
@@ -70,7 +66,7 @@ Afterwards [jitpack.io](jitpack.io) is used to build an Android library project 
 - `git add library/src/main/jni/sqlite/sqlite.h`
 - `git add library/src/main/jni/sqlite/sqlite.c`
 - `git commit`
-- `git tag release/sqlite-3.10.2`
+- `git tag 3.10.2`
 - `git push --tags`
 
 ### TODO
