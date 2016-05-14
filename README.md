@@ -37,7 +37,7 @@ allprojects {
 
 dependencies {
   // recent SQlite version
-  compile 'com.github.weitzj:sqlite-android:3.12.1'
+  compile 'com.github.weitzj:sqlite-android:3.12.2'
 
   // sane shared library loading on Android (optional but recommended)
   compile 'com.github.KeepSafe:ReLinker:1.2.1'
@@ -69,7 +69,7 @@ Afterwards [jitpack.io](jitpack.io) is used to build an Android library project 
 - `git add library/src/main/jni/sqlite/sqlite.h`
 - `git add library/src/main/jni/sqlite/sqlite.c`
 - `git commit`
-- `git tag 3.12.1`
+- `git tag 3.12.2`
 - `git push --tags`
 
 ### License
