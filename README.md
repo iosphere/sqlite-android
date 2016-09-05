@@ -1,4 +1,4 @@
-# sqlite-android [![](https://jitpack.io/v/iosphere/sqlite-android.svg)](https://jitpack.io/#weitzj/sqlite-android)
+# sqlite-android [![](https://jitpack.io/v/iosphere/sqlite-android.svg)](https://jitpack.io/#iosphere/sqlite-android)
 
 Ready-built recent SQLite bindings to be used inside Android applications and libraries for Android 4.1 (API 16) and above. Supported architectures: [armeabi-v7a, mips, x86]
 
