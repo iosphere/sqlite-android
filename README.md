@@ -1,4 +1,4 @@
-# sqlite-android [![](https://jitpack.io/v/weitzj/sqlite-android.svg)](https://jitpack.io/#weitzj/sqlite-android)
+# sqlite-android [![](https://jitpack.io/v/iosphere/sqlite-android.svg)](https://jitpack.io/#weitzj/sqlite-android)
 
 Ready-built recent SQLite bindings to be used inside Android applications and libraries for Android 4.1 (API 16) and above. Supported architectures: [armeabi-v7a, mips, x86]
 
@@ -22,7 +22,7 @@ By using the SQlite Android bindings, **sqlite-android** is able to pull in the 
 
 ### Usage
 
-Check https://jitpack.io/#weitzj/sqlite-android for the most recent version
+Check https://jitpack.io/#iosphere/sqlite-android for the most recent version
 available.
 
 #####  `build.gradle` dependencies:
@@ -37,7 +37,7 @@ allprojects {
 
 dependencies {
   // recent SQlite version
-  compile 'com.github.weitzj:sqlite-android:3.12.2'
+  compile 'com.github.iosphere:sqlite-android:3.12.2'
 
   // sane shared library loading on Android (optional but recommended)
   compile 'com.github.KeepSafe:ReLinker:1.2.1'
